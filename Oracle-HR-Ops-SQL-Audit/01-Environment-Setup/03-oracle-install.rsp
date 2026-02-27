@@ -1,0 +1,12 @@
+oracle.install.option=INSTALL_DB_SWONLY
+ORACLE_HOSTNAME=localhost.localdomain
+UNIX_GROUP_NAME=oinstall
+INVENTORY_LOCATION=/u01/app/oraInventory
+SELECTED_LANGUAGES=en,zh_CN
+ORACLE_HOME=/u01/app/oracle/product/11.2.0/db_1
+ORACLE_BASE=/u01/app/oracle
+oracle.install.db.InstallEdition=EE
+oracle.install.db.DBA_GROUP=dba
+oracle.install.db.OPER_GROUP=dba
+DECLINE_SECURITY_UPDATES=true
+oracle.installer.autoupdates.option=SKIP_UPDATES

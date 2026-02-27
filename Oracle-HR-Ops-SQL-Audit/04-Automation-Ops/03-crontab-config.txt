@@ -1,0 +1,9 @@
+# Oracle运维定时任务配置
+# 每天凌晨2点备份HR库
+0 2 * * * /home/oracle/scripts/hr_backup.sh
+
+# 每5分钟检查监听状态
+*/5 * * * * /home/oracle/scripts/listener_monitor.sh
+
+# 每天凌晨3点清理日志
+0 3 * * * find /home/oracle/logs -name "*.log" -mtime +7 -delete
